@@ -1,0 +1,29 @@
+.menu{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border: 5px solid black;
+    animation: 8s menuanimation infinite linear;
+    transition: 220ms;
+}
+
+.menu:hover{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    border: 5px solid black;
+    animation: 8s menuanimation infinite linear;
+    cursor: pointer;
+    scale: ;
+}
+
+@keyframes menuanimation{
+    0%{
+        
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
